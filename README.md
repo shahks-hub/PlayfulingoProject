@@ -16,13 +16,6 @@ For our database we're using Firebase Cloud database Firestore, also using Fireb
 
 ## Setting Up and Running the Project
 
--------
-### Check Releases for working app.  Explained below is the process to get it on your phone.
--  Download the Playfulingo.apk from the release section
--  Find the file in your device and it should give you the option to install.
--  When installing, it might ask you for affirmation, if so click on 'More Details' and choose the "install anyway" option.
--  Now the app will work as intended on your device. (for updates, redownloading newer apk versions can check for updating app itself)
--------
 
 ### 1. Clone the Repository
 To clone this repository to your local machine, open your terminal and enter:
@@ -61,43 +54,7 @@ flutter run
 all code files are in lib folder and then the folder names correspond to the functionality. 
  
 
-## Responsibilites:
 
-### Sulav: 
-General styling of the app, implementing startup animated widget, games and learn homepage with google fonts and glassmorph libraries. Building and training a gesture recognition model with tensor flow lite and teachable. Also responsible for organizing the code files. 
-
-Relevant files: 
-- lib/Games/games.dart 
-- lib/Learn_ASL/learn.dart
-- lib/Games/gesture.dart(This file is commented out because there was a version issue running tensorlite on my end - Kasaf)
--lib/HomePage/glass_morph.dart
--lib/HomePage/learning_morph.dart
-
-### Jin: 
-Making the flashcards module in learning items. Also implemented most of the games in the games module. 
-
-Relevant files:
-- lib/Games/fill_in_the_blank.dart
-- lib/Games/yes_no.dart
-- lib/Games/multiple_choice.dart
-- lib/Games/memory_matching.dart
-- lib/Learn_ASL/flashcard.dart
-- lib/StartUp/animated_splash.dart
-- lib/StartUp/login_prompt.dart
-
-### Kasaf: 
-Setting up the backend and adding backend functionality, implementing the progress page and videos modules with youtube package in flutter. Also using hugging face model for image recognition to detect ASL signs. alphabet matching learning module along with it's corresponding practice game that unlocks after a user completes the lesson. 
-
-Relevant files: 
-- lib/Games/alphabet_prac.dart
-- lib/Games/alphabet_match.dart
-- lib/Learn_ASL/abcvideo.dart
-- lib/Learn_ASL/abtutorial.dart
-- lib/Learn_ASL/simpleaslvideo.dart
-- lib/HomePage/progress.dart
-- lib/Firebase/signup_page.dart
-
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/917208827?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Screen Recording 2024-02-26 at 3.03 (Copy)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 
 
